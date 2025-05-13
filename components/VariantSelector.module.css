@@ -1,0 +1,264 @@
+.container {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.optionGroup {
+  margin-bottom: 1.5rem;
+}
+
+.optionTitle {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #555;
+}
+
+.optionItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.optionButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.optionButton:hover:not(.unavailable) {
+  border-color: #999;
+}
+
+.optionButton.selected {
+  border-color: #4a90e2;
+  background-color: #f0f7ff;
+}
+
+.optionButton.unavailable {
+  opacity: 0.9;
+  cursor: not-allowed !important;
+  background-color: #fff0f0;
+  color: #888;
+  border-color: #ffcccc;
+  border-width: 2px;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.optionButton.unavailable::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255, 0, 0, 0.05),
+    rgba(255, 0, 0, 0.05) 10px,
+    rgba(255, 255, 255, 0.05) 10px,
+    rgba(255, 255, 255, 0.05) 20px
+  );
+}
+
+.optionButton.incompatible {
+  opacity: 0.8;
+  cursor: not-allowed !important;
+  background-color: #f0f0f0;
+  color: #888;
+  border-color: #ddd;
+  position: relative;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.optionButton.incompatible::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.03),
+    rgba(0, 0, 0, 0.03) 10px,
+    rgba(255, 255, 255, 0.05) 10px,
+    rgba(255, 255, 255, 0.05) 20px
+  );
+}
+
+.outOfStockBadge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #ff4d4f;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.incompatibleBadge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #aaa;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.selectionSummary {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.selectionSummary h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.selectionSummary ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.selectionSummary li {
+  margin-bottom: 0.25rem;
+}
+
+.variantKeyDisplay {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.variantInfo {
+  background-color: #f0f7ff;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.variantTitle {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: #4a90e2;
+}
+
+.variantDetails p {
+  margin: 0.5rem 0;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: #555;
+}
+
+.msrp {
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 0.5rem;
+}
+
+.outOfStock {
+  color: #ff4d4f;
+}
+
+.variantError {
+  background-color: #fff1f0;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  color: #cf1322;
+}
+
+.variantError p {
+  margin: 0.5rem 0;
+}
+
+.debugSection {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.debugSection summary {
+  cursor: pointer;
+  user-select: none;
+  font-weight: bold;
+  color: #777;
+}
+
+.debugContent {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.keysContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.keyItem {
+  background-color: #eee;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-family: monospace;
+}
+
+.loading {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px dashed #ddd;
+}
+
+.error {
+  padding: 20px;
+  text-align: center;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  margin: 20px 0;
+  font-size: 16px;
+} 

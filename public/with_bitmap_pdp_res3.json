@@ -1,0 +1,79 @@
+{
+    "parentProductId": "681cada4d28294ce8a2b965f",
+    "brand": "",
+    "highlights": [
+        {
+            "en": "Men's Short Sleeve Button Down Shirt"
+        }
+    ],
+    "detailedDesc": [
+        "Comfort Fabric: Elevate your summer wardrobe with the KTTEI men's button-down shirts Crafted from a high-quality fabric,these shirts are perfect for beach vacations or casual outings Stay cool and comfortable all day in these lightweight and breathable shirts"
+    ],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "categoryList": [
+        {
+            "categoryId": "681c9e9f56308a8b50043a27",
+            "categoryName": "Clothing",
+            "parent": true,
+            "slug": "clothing-2104"
+        },
+        {
+            "categoryId": "681c9f809ad31a43520c5897",
+            "categoryName": "Men's Clothing",
+            "parent": false,
+            "slug": "men-s-clothing"
+        },
+        {
+            "categoryId": "681c9fca751c68ab830b1584",
+            "categoryName": "Shirts",
+            "parent": false,
+            "slug": "shirts"
+        }
+    ],
+    "storeCategoryId": "63a2f3e6800d4ef1190174c4",
+    "maxQuantity": 10,
+    "returnPolicy": {
+        "isReturn": true,
+        "noofdays": 30
+    },
+    "selectedVariant": {
+        "variantId": "681cc304ffb3eafef0260c62",
+        "slug": "men-s-short-sleeve-button-down-7187",
+        "name": "Men's Short Sleeve Button Down Shirt",
+        "colorName": "Navy",
+        "size": "XXL",
+        "price": {
+            "basePrice": 15.0,
+            "finalPrice": 15.0,
+            "discountPrice": 0.0,
+            "discountPercentage": 0.0,
+            "discountType": 1,
+            "taxRate": 0,
+            "msrpPrice": 30.0
+        },
+        "inStock": true,
+        "images": [
+            {
+                "small": "https://storage.googleapis.com/trulyfree-staging/product/image/men-s-short-sleeve-button-down-shirt-17467153824624658.jpeg",
+                "altText": "Men's Short Sleeve Button Down Shirt image",
+                "filePath": ""
+            },
+            {
+                "small": "https://storage.googleapis.com/trulyfree-staging/product/image/men-s-short-sleeve-button-down-shirt-17467153829743881.jpeg",
+                "altText": "Men's Short Sleeve Button Down Shirt image",
+                "filePath": ""
+            }
+        ],
+        "availableQuantity": 1000,
+        "minimumOrderQty": 0
+    },
+    "performance": {
+        "db_query_time_ms": 2046.8697547912598,
+        "processing_time_ms": 0.0035762786865234375,
+        "bitmap_generation_time_ms": 0,
+        "cache_hit": false,
+        "total_time_ms": 4503.084659576416,
+        "api_total_time_ms": 4503.089666366577
+    }
+}

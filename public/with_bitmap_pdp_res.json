@@ -1,0 +1,492 @@
+{
+  "productId": "681cada4d28294ce8a2b965f",
+  "bitmap": {
+      "options": {
+          "color": [
+              "Black",
+              "Blue",
+              "Brown",
+              "Gray",
+              "Green",
+              "Navy",
+              "Orange",
+              "Pink",
+              "Purple",
+              "Red",
+              "White",
+              "Yellow"
+          ],
+          "size": [
+              "3XL",
+              "4XL",
+              "L",
+              "M",
+              "S",
+              "XL",
+              "XS",
+              "XXL"
+          ],
+          "Pack Size": [
+              "1 Pack",
+              "10 Pack",
+              "12 Pack",
+              "15 Pack",
+              "2 Pack",
+              "20 Pack",
+              "24 Pack",
+              "3 Pack",
+              "30 Pack",
+              "4 Pack",
+              "5 Pack",
+              "6 Pack"
+          ]
+      },
+      "optionValidity": {
+          "color": {
+              "0": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "1": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "2": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "3": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "4": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "5": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "6": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "7": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "8": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "9": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "10": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              },
+              "11": {
+                  "size": [
+                      0,
+                      1,
+                      2,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7
+                  ],
+                  "Pack Size": [
+                      0,
+                      1,
+                      3,
+                      4,
+                      5,
+                      6,
+                      7,
+                      8,
+                      9,
+                      10,
+                      11
+                  ]
+              }
+          }
+      },
+      "variantMap": {
+          "0-2-9": {
+              "variantId": "681cc178ffb3eafef0260b9e",
+              "sku": "e9405fc9-fb0f-451e-9008-12bdf4aa60e8",
+              "name": "Men's Short Sleeve Button Down Shirt",
+              "slug": "men-s-short-sleeve-button-down-8541",
+              "price": {
+                  "basePrice": 15.0,
+                  "finalPrice": 15.0,
+                  "discountPrice": 0.0,
+                  "discountPercentage": 0.0,
+                  "msrpPrice": 30.0
+              },
+              "inStock": false,
+              "stockQty": 0,
+              "imageIndices": [
+                  0,
+                  1
+              ],
+              "minimumOrderQty": 0
+          },
+          "0-2-0": {
+              "variantId": "681cbae0de49fda27c2d1a54",
+              "sku": "a0ce2814-ab34-4527-9d58-ffb340f16e0f",
+              "name": "Men's Short Sleeve Button Down Shirt",
+              "slug": "men-s-short-sleeve-button-down-3817",
+              "price": {
+                  "basePrice": 15.0,
+                  "finalPrice": 15.0,
+                  "discountPrice": 0.0,
+                  "discountPercentage": 0.0,
+                  "msrpPrice": 30.0
+              },
+              "inStock": true,
+              "stockQty": 1000,
+              "imageIndices": [
+                  0,
+                  1
+              ],
+              "minimumOrderQty": 0
+          },
+          "0-2-11": {
+              "variantId": "681cb7672efad2d6fa44f54b",
+              "sku": "ddfe3c12-bd8b-4111-8bc7-9b10928713fd",
+              "name": "Men's Short Sleeve Button Down Shirt",
+              "slug": "men-s-short-sleeve-button-down-3163",
+              "price": {
+                  "basePrice": 15.0,
+                  "finalPrice": 15.0,
+                  "discountPrice": 0.0,
+                  "discountPercentage": 0.0,
+                  "msrpPrice": 30.0
+              },
+              "inStock": true,
+              "stockQty": 1000,
+              "imageIndices": [
+                  0,
+                  1
+              ],
+              "minimumOrderQty": 0
+          },
+          "0-2-6": {
+              "variantId": "681cb6482efad2d6fa44f4a3",
+              "sku": "a8da69be-4565-4209-abe4-b60a9386766a",
+              "name": "Men's Short Sleeve Button Down Shirt",
+              "slug": "men-s-short-sleeve-button-down-7267",
+              "price": {
+                  "basePrice": 15.0,
+                  "finalPrice": 15.0,
+                  "discountPrice": 0.0,
+                  "discountPercentage": 0.0,
+                  "msrpPrice": 30.0
+              },
+              "inStock": false,
+              "stockQty": 0,
+              "imageIndices": [
+                  0,
+                  1
+              ],
+              "minimumOrderQty": 0
+          },
+          "0-2-4": {
+              "variantId": "681cb0487941c9e9571d80f8",
+              "sku": "f120f8db-e605-4400-8248-978f7c10bdd5",
+              "name": "Men's Short Sleeve Button Down Shirt",
+              "slug": "men-s-short-sleeve-button-down-5515",
+              "price": {
+                  "basePrice": 15.0,
+                  "finalPrice": 15.0,
+                  "discountPrice": 0.0,
+                  "discountPercentage": 0.0,
+                  "msrpPrice": 30.0
+              },
+              "inStock": true,
+              "stockQty": 1000,
+              "imageIndices": [
+                  0,
+                  1
+              ],
+              "minimumOrderQty": 0
+          },
+          "0-2-3": {
+              "variantId": "681cae63d28294ce8a2b96cb",
+              "sku": "d451140a-db76-4390-8cda-bd2639dcf4cd",
+              "name": "Men's Short Sleeve Button Down Shirt",
+              "slug": "men-s-short-sleeve-button-down-1145",
+              "price": {
+                  "basePrice": 15.0,
+                  "finalPrice": 15.0,
+                  "discountPrice": 0.0,
+                  "discountPercentage": 0.0,
+                  "msrpPrice": 30.0
+              },
+              "inStock": true,
+              "stockQty": 1000,
+              "imageIndices": [
+                  0,
+                  1
+              ],
+              "minimumOrderQty": 0
+          }
+      }
+  },
+  "selectedFilters": {
+      "colorIndex": 0,
+      "sizeIndex": 2
+  },
+  "performance": {
+      "db_query_time_ms": 0,
+      "processing_time_ms": 0.3414154052734375,
+      "cache_hit": true,
+      "total_time_ms": 0.6077289581298828,
+      "api_total_time_ms": 1351.2427806854248
+  }
+}
