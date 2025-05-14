@@ -9939,8 +9939,23 @@
         "variantId": "681cc304ffb3eafef0260c62",
         "slug": "men-s-short-sleeve-button-down-7187",
         "name": "Men's Short Sleeve Button Down Shirt",
-        "colorName": "Navy",
-        "size": "XXL",
+        "colorName": "Blue",
+        "size": "4XL",
+        "packSize":"1 Pack",
+        "colorNameIndex": "1",
+        "sizeIndex": "1",
+        "packSizeIndex":"1",
+        "linkedtounits": [
+            {
+                "attrname": {
+                    "en": "Pack Size"
+                },
+                "value": {
+                    "en": "10 Pack"
+                }
+            }
+            
+        ],
         "price": {
             "basePrice": 15.0,
             "finalPrice": 15.0,

@@ -33,6 +33,7 @@ export default function VariantSelector({ productData, onVariantChange }) {
   }, [productData]);
 
   const updateVariant = (selection) => {
+    console.log(selection,'selection')
     const key = Object.keys(options).map(type => selection[type]).join('-');
     const variant = variantMap[key];
 
@@ -92,6 +93,7 @@ export default function VariantSelector({ productData, onVariantChange }) {
   };
 
   const handleSelect = (type, index, label) => {
+    console.log(type, index, label,'type, index, label')
     if (unavailableOptions[type]?.[index]) return;
 
     const updated = { ...selectedOptions, [type]: index };
@@ -136,6 +138,8 @@ export default function VariantSelector({ productData, onVariantChange }) {
               let priceInfo = null;
               // Only show prices for the last option type
               const isLastOptionType = Object.keys(options).indexOf(type) === Object.keys(options).length - 1;
+              const  disabledbtn = Object.keys(options).indexOf(type) === Object.keys(options).length ;
+              console.log(unavailable,incompatible,'disabledbtn')
               if (!disabled && isLastOptionType) {
                 // Create a temp selection with this option
                 const tempOptions = { ...selectedOptions, [type]: index };
@@ -155,10 +159,9 @@ export default function VariantSelector({ productData, onVariantChange }) {
                     ${unavailable ? styles.unavailable : ''}
                     ${incompatible && !unavailable ? styles.incompatible : ''}`}
                   onClick={() => !disabled && handleSelect(type, index, value)}
-                  disabled={disabled}
+                  disabled={disabled }
                 >
                   {value}
-                  {console.log(type.length,values.length,Object.keys(options).length,'index')}
                   {priceInfo !== null &&    (
                     <span className={styles.priceInfo}> - ${priceInfo}</span>
                   )}

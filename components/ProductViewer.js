@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import VariantSelector from './VariantSelector';
 import styles from './ProductViewer.module.css';
+import VariantSelectorNew from './VariantSelectorNew';
 
 export default function ProductViewer({ productData }) {
   const [selectedVariant, setSelectedVariant] = useState(null);
@@ -78,7 +79,7 @@ export default function ProductViewer({ productData }) {
 
         {/* Product details and variant selection */}
         <div className={styles.productDetails}>
-          <VariantSelector 
+          <VariantSelectorNew
             productData={productData} 
             onVariantChange={handleVariantChange}
           />
