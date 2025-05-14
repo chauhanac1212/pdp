@@ -533,6 +533,26 @@
                 ],
                 "minimumOrderQty": 0
             },
+            "0-0-0": {
+                "variantId": "681cc29dffb3eafef0260c3b",
+                "sku": "b7a0da39-0479-4f3e-ac85-53ab998b3f2d",
+                "name": "Men's Short Sleeve Button Down Shirt",
+                "slug": "men-s-short-sleeve-button-down-8055",
+                "price": {
+                    "basePrice": 15.0,
+                    "finalPrice": 25.0,
+                    "discountPrice": 0.0,
+                    "discountPercentage": 0.0,
+                    "msrpPrice": 30.0
+                },
+                "inStock": true,
+                "stockQty": 1000,
+                "imageIndices": [
+                    0,
+                    1
+                ],
+                "minimumOrderQty": 0
+            },
             "8-5-7": {
                 "variantId": "681cc289ffb3eafef0260c31",
                 "sku": "4b30fe26-99fd-4023-8110-55f809e0a3e6",

@@ -241,6 +241,13 @@
   font-family: monospace;
 }
 
+.priceInfo {
+  font-size: 0.85rem;
+  color: #4a90e2;
+  font-weight: bold;
+  margin-left: 0.25rem;
+}
+
 .loading {
   padding: 20px;
   text-align: center;
